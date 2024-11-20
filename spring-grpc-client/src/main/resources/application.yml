@@ -1,0 +1,17 @@
+server:
+    port: 9750
+    servlet:
+        encoding:
+            charset: UTF-8
+            force: true
+spring:
+    application:
+        name: spring-grpc-client
+springdoc:
+  swagger-ui:
+      path: swagger-ui.html
+      tags-sorter: alpha
+      display-operation-id: true
+      display-request-duration: true
+  api-docs:
+     path: /spring-grpc-client/v3/api-docs

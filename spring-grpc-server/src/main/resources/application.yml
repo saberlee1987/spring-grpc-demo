@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: spring-grpc-server
+server:
+    port: 9700
+    servlet:
+        encoding:
+            charset: UTF-8
+            force: true
+
+grpc:
+  server:
+      port: 8090
